@@ -1,0 +1,108 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 43940d31-0106-46b4-ba32-39e511eb1f4a
+  bundle: event
+  default_langcode: en
+  depends:
+    771c05d4-3523-48af-97db-eec8b84106e5: media
+    6d54251d-b5cf-4ff0-8323-a171493e97df: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'DrupalCon Barcelona 2024'
+  created:
+    -
+      value: 1718795682
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'DrupalCon Barcelona 2024 | Recipes Demo'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'DrupalCon Europe is an event uniting thousands of people from around the globe who use, develop, design and support the Drupal platform—all creating ambitious digital experiences. It serves as the European counterpart to The DrupalCon, which takes place annually in the USA.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://recipes.ddev.site/event/drupalcon-barcelona-2024'
+  path:
+    -
+      alias: /event/drupalcon-barcelona-2024
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>DrupalCon Europe is an event uniting thousands of people from around the globe who use, develop, design and support the Drupal platform—all creating ambitious digital experiences. It serves as the European counterpart to The DrupalCon, which takes place annually in the USA. Each year, DrupalCon Europe selects a new European destination to host the event. In 2024, we are excited to gather in Barcelona. &nbsp;<br>Network, learn, and be inspired at DrupalCon Europe!&nbsp;&nbsp;</p><ul><li><strong>What’s the Drupal Association?&nbsp;</strong></li></ul><p>The Drupal Association is an educational non-profit organization that collaborates with Kuoni Tumlare Congress to organize DrupalCon Europe. Supported by individual members and organizations, the Association utilizes its resources, network, and funds to engage in various initiatives aimed at educating people about Drupal. Through events like DrupalCon Europe, the Association continues to advance its mission and support the vibrant Drupal community.&nbsp;</p><p>&nbsp;</p>'
+      format: basic_html
+      summary: ''
+  field_address:
+    -
+      langcode: ''
+      country_code: ES
+      administrative_area: B
+      locality: 'Sant Martí'
+      dependent_locality: ''
+      postal_code: '08019'
+      address_line1: 'Plaça de Willy Brandt, 11-14'
+      address_line2: ''
+  field_date_time:
+    -
+      value: '2024-09-24T11:00:00'
+      end_value: '2024-09-27T17:00:00'
+  field_featured_image:
+    -
+      entity: 771c05d4-3523-48af-97db-eec8b84106e5
+  field_featured_speaker_s:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1f1cec05-4772-4e3c-9c5e-e4c17424f41a
+          bundle: speaker
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1718795690
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_name:
+            -
+              value: 'John Doe'
+          field_photo:
+            -
+              entity: 6d54251d-b5cf-4ff0-8323-a171493e97df

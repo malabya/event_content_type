@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 72500069-ef9f-485f-bbd8-c433f172ad68
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'DrupalCon Barcelona drupal.org_.png'
+  uri:
+    -
+      value: 'public://2024-06/DrupalCon Barcelona drupal.org_.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 598760
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1718795138

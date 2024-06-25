@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6d54251d-b5cf-4ff0-8323-a171493e97df
+  bundle: image
+  default_langcode: en
+  depends:
+    34b48b28-5c33-4c99-a780-de74bfb762e9: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: alexander-hipp-iEEBWgY_6lA-unsplash.jpg
+  created:
+    -
+      value: 1718181187
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Recipes Demo'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://recipes.ddev.site/node'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 34b48b28-5c33-4c99-a780-de74bfb762e9
+      alt: Test
+      title: ''
+      width: 6220
+      height: 6220

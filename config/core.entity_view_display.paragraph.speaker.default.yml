@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.speaker.field_bio
+    - field.field.paragraph.speaker.field_name
+    - field.field.paragraph.speaker.field_photo
+    - paragraphs.paragraphs_type.speaker
+  module:
+    - expand_collapse_formatter
+    - text_field_formatter
+id: paragraph.speaker.default
+targetEntityType: paragraph
+bundle: speaker
+mode: default
+content:
+  field_bio:
+    type: expand_collapse_formatter
+    label: hidden
+    settings:
+      trim_length: 200
+      default_state: collapsed
+      link_text_open: 'Show more'
+      link_text_close: 'Show less'
+      link_class_open: ecf-open
+      link_class_close: ecf-close
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_name:
+    type: text_field_formatter
+    label: hidden
+    settings:
+      wrap_tag: h3
+      wrap_class: ''
+      wrap_attributes: ''
+      override_link_label: ''
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_photo:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

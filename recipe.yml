@@ -1,0 +1,31 @@
+name: Event Content type
+description: Creates an Event Content type with default contents
+recipes:
+  - core/recipes/image_media_type
+  - core/recipes/editorial_workflow
+install:
+  - address
+  - expand_collapse_formatter
+  - datetime_range
+  - media
+  - media_library
+  - geolocation_address
+  - geolocation_leaflet
+  - layout_builder
+  - metatag
+  - pathauto
+  - paragraphs
+  - smart_date
+  - text_field_formatter
+config:
+  import:
+    smart_date: '*'
+  actions:
+    metatag.settings:
+      simple_config_update:
+        entity_type_groups.node.event:
+          - basic
+          - advanced
+    workflows.workflow.editorial:
+      addNodeTypes:
+        - event

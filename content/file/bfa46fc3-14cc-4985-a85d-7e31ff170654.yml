@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bfa46fc3-14cc-4985-a85d-7e31ff170654
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: brian-tromp-KucgBMFc4JU-unsplash.jpg
+  uri:
+    -
+      value: 'public://2024-06/brian-tromp-KucgBMFc4JU-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 860773
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1718181223

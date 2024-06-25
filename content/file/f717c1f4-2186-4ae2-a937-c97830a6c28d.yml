@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f717c1f4-2186-4ae2-a937-c97830a6c28d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: matthew-osborn-wMRIcT86SWU-unsplash.jpg
+  uri:
+    -
+      value: 'public://2024-06/matthew-osborn-wMRIcT86SWU-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 7593825
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1718181079

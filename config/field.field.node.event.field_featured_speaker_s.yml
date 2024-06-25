@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_speaker_s
+    - node.type.event
+    - paragraphs.paragraphs_type.speaker
+  module:
+    - entity_reference_revisions
+id: node.event.field_featured_speaker_s
+field_name: field_featured_speaker_s
+entity_type: node
+bundle: event
+label: 'Featured Speaker(s)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      speaker: speaker
+    negate: 0
+    target_bundles_drag_drop:
+      speaker:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

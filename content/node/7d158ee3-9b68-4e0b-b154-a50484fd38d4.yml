@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7d158ee3-9b68-4e0b-b154-a50484fd38d4
+  bundle: event
+  default_langcode: en
+  depends:
+    b2d8f307-ebe0-4c08-a96d-2f2b8749277b: media
+    6d54251d-b5cf-4ff0-8323-a171493e97df: media
+    ce7c0c2c-8b54-4f2f-8398-ec71ecd54d24: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Drupal Bangalore Meetup - June 2024'
+  created:
+    -
+      value: 1718180918
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Drupal Bangalore Meetup - June 2024 | Recipes Demo'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: "Synergistically revolutionize premier metrics vis-a-vis business results. Assertively leverage other's 24/365 resources before cross-media ROI. Authoritatively coordinate standardized communities without 24/365 e-tailers. Continually reinvent ethical action items before 2.0 processes."
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://recipes.ddev.site/event/drupal-bangalore-meetup-june-2024'
+  path:
+    -
+      alias: /event/drupal-bangalore-meetup-june-2024
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Synergistically revolutionize premier metrics vis-a-vis business results. Assertively leverage other''s 24/365 resources before cross-media ROI. Authoritatively coordinate standardized communities without 24/365 e-tailers. Continually reinvent ethical action items before 2.0 processes. Credibly embrace market-driven quality vectors via effective services.</p><p>Competently visualize top-line content for enabled catalysts for change. Rapidiously productivate flexible catalysts for change without holistic "outside the box" thinking. Appropriately generate goal-oriented e-commerce rather than tactical meta-services. Compellingly provide access to error-free experiences without transparent growth strategies. Authoritatively supply customer directed channels rather than enabled e-services.</p><p>Progressively utilize out-of-the-box opportunities without backward-compatible methods of empowerment. Rapidiously grow cross-media architectures for multidisciplinary supply chains. Continually engineer interoperable ideas via seamless innovation. Seamlessly create high-payoff platforms for client-centric content. Professionally disseminate client-focused process improvements after clicks-and-mortar processes.</p><p>Conveniently disintermediate front-end systems after covalent deliverables. Efficiently myocardinate dynamic testing procedures after goal-oriented materials. Seamlessly matrix leveraged content vis-a-vis equity invested core competencies. Globally promote.</p><p>&nbsp;</p>'
+      format: basic_html
+      summary: ''
+  field_address:
+    -
+      langcode: ''
+      country_code: IN
+      administrative_area: KA
+      locality: Bengaluru
+      dependent_locality: ''
+      postal_code: '560102'
+      address_line1: '815, 2nd floor, 27th Main Road, Sector 1, HSR Layout'
+      address_line2: ''
+  field_date_time:
+    -
+      value: '2024-06-22T10:00:00'
+      end_value: '2024-06-22T12:00:00'
+  field_featured_image:
+    -
+      entity: b2d8f307-ebe0-4c08-a96d-2f2b8749277b
+  field_featured_speaker_s:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7fed1c14-d8f9-4bd1-9ed1-f1e01c79263f
+          bundle: speaker
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1718181070
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_bio:
+            -
+              value: "Intrinsicly synthesize quality process improvements without ubiquitous ROI. Progressively mesh extensible web-readiness and strategic products. Competently conceptualize installed base networks before granular web-readiness. Assertively synthesize market positioning communities vis-a-vis global sources. Enthusiastically build extensive total linkage after integrated resources.\r\n\r\nDynamically procrastinate state of the art scenarios rather than cross-unit ideas. Credibly cultivate user-centric initiatives without bleeding-edge processes. Assertively procrastinate synergistic."
+          field_name:
+            -
+              value: 'John Doe'
+          field_photo:
+            -
+              entity: 6d54251d-b5cf-4ff0-8323-a171493e97df
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7eb643b1-a48b-4b3b-81cf-d0cef2be3607
+          bundle: speaker
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1718181196
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_bio:
+            -
+              value: "Intrinsicly synthesize quality process improvements without ubiquitous ROI. Progressively mesh extensible web-readiness and strategic products. Competently conceptualize installed base networks before granular web-readiness. Assertively synthesize market positioning communities vis-a-vis global sources. Enthusiastically build extensive total linkage after integrated resources.\r\n\r\nDynamically procrastinate state of the art scenarios rather than cross-unit ideas. Credibly cultivate user-centric initiatives without bleeding-edge processes. Assertively procrastinate synergistic."
+          field_name:
+            -
+              value: 'Jane Doe'
+          field_photo:
+            -
+              entity: ce7c0c2c-8b54-4f2f-8398-ec71ecd54d24

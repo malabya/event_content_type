@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 34b48b28-5c33-4c99-a780-de74bfb762e9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: alexander-hipp-iEEBWgY_6lA-unsplash.jpg
+  uri:
+    -
+      value: 'public://2024-06/alexander-hipp-iEEBWgY_6lA-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2633365
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1718181187
